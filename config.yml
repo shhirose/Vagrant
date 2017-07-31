@@ -1,0 +1,46 @@
+type: virtualbox
+#os:
+#  cpu: 1
+#  mem: 1024
+#  hostname:
+#vm:
+#  box: centos/7
+#  box_url:
+#  name: CentOS7-1.11
+#  gui: false
+#  box_check_update: false
+#  sync_folder:
+#    enable: true
+#    host: '.'
+#    guest: '/vagrant'
+#    owner: 'root'
+#    group: 'root'
+#
+#networks:
+#  nat_forwarded_port:
+#    - id: ''
+#      guest: -1
+#      guest_ip: nil
+#      host: -1
+#      host_ip: nil
+#      protocol: nil
+#      auto_correct: ''
+#  private:
+#    - dhcp: false
+#      ip_addr:
+#      netmask: 255.255.255.0
+#      auto_config: true
+#      name: ''
+#  public:
+#    - dhcp: false
+#      dhcp_assigned_default_route: false
+#      ip_addr:
+#      netmask: 255.255.255.0
+#      bridge: []
+#      auto_config: true
+#
+#ssh:
+#  public_key: ~/.ssh/id_rsa.pub
+
+# aws
+# sync_folder を有効にする場合は、config.ssh.pty = true にする必要がある。
