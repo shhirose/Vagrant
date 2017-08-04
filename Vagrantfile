@@ -97,7 +97,7 @@ Vagrant.configure("2") do |config|
 
   # Set box
   config.vm.box = conf['vm']['box']
-  if not conf['type'].empty?
+  if not conf['vm']['box_url'].empty?
     config.vm.box_url = conf['vm']['box_url']
   end
 
