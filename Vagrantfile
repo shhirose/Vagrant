@@ -277,7 +277,7 @@ Vagrant.configure("2") do |config|
   end
 
   # ネットワークを追加した際に、追加したネットワークを有効にする
-  config.vm.provision "shell", inline: "sudo systemctl restart network", run: always
+  config.vm.provision "shell", inline: "sudo systemctl restart network", run: "always"
 
 
   ##########################
