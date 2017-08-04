@@ -130,6 +130,7 @@ Vagrant.configure("2") do |config|
       v.customize ["modifyvm", :id, "--ostype", "RedHat_64"]
       v.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
       v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
+    end
   end
 
   if Vagrant.has_plugin?("vagrant-aws")
